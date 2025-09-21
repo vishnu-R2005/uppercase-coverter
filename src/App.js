@@ -2,14 +2,13 @@ import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
 import Textform from './components/Textform';
-
+import About from './components/about';
 function App() {
   return (
     <>
-      <Navbar />
-      {/* <Textform />  will use default heading */}
-      {/* Or explicitly pass a heading */}
-      <Textform heading="enter the text here "/>
+      <Navbar title="TextUtils" about="About us"/>
+      <Textform/>
+      <About/>
     </>
   );
 }
