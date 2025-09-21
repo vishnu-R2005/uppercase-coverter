@@ -5,6 +5,10 @@ import PropTypes from 'prop-types';
 export default function Textform(props) {
 const [text, setText] = useState("this is my text");
 
+const data=()=>
+{
+    console.log("log out from the data")
+}
 const handleupclick=()=>{
     // console.log("uppercase")
     let newtext=text.toUpperCase()
